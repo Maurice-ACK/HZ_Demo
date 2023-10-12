@@ -11,7 +11,16 @@ table 50101 Food
             AutoIncrement = true;
 
         }
-        field(20; Name; Integer)
+        field(20; Name; Text[100])
+        {
+
+        }
+        field(30; quantity; Integer)
+        {
+            MinValue = 0;
+            MaxValue = 2000;
+        }
+        field(40; quality; Enum FoodQuality)
         {
 
         }
