@@ -12,12 +12,14 @@ pageextension 50101 AnimalExt extends "Business Manager Role Center"
                 action("Animals List")
                 {
                     Caption = 'List of animals';
+                    Image = CodesList;
                     RunObject = page AnimalList;
 
                 }
                 action("Food List")
                 {
                     Caption = 'List of Food';
+                    Image = TestDatabase;
                     RunObject = page FoodList;
 
                 }

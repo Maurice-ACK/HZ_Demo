@@ -9,7 +9,7 @@ enum 50100 AnimalType
     {
 
     }
-    value(2; "West African")
+    value(2; "West African Lion")
     {
 
     }

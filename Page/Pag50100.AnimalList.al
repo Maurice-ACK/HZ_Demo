@@ -12,20 +12,27 @@ page 50100 AnimalList
         {
             repeater(General)
             {
+
+                field(Name; Rec.Name)
+                {
+                }
                 field(Birthday; Rec.Birthday)
                 {
                 }
-                field(ID; Rec.ID)
+                field("Food"; rec.Food)
                 {
-                }
-                field(Name; Rec.Name)
-                {
+
                 }
                 field(Ressidents; Rec.Ressidents)
                 {
                 }
                 field("Type"; Rec."Type")
                 {
+                }
+
+                field("Status"; rec.Status)
+                {
+
                 }
             }
         }

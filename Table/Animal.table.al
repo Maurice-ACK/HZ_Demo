@@ -12,10 +12,13 @@ table 50100 Animal
         }
         field(20; Name; Text[50])
         {
+            NotBlank = true;
 
         }
         field(40; Type; Enum AnimalType)
         {
+            NotBlank = true;
+
             InitValue = Hippopotamus;
         }
 
@@ -27,9 +30,9 @@ table 50100 Animal
         {
 
         }
-        field(70; Status; Text[50])
+        field(70; Status; Enum AnimalStatus)
         {
-
+            NotBlank = true;
         }
         field(80; Food; Integer)
         {
