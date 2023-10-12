@@ -26,7 +26,7 @@ table 50100 Animal
         {
 
         }
-        field(60; Ressidents; Text[50])
+        field(60; Availability; Text[50])
         {
 
         }

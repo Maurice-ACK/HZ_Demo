@@ -23,7 +23,7 @@ page 50100 AnimalList
                 {
 
                 }
-                field(Ressidents; Rec.Ressidents)
+                field(Availability; Rec.Availability)
                 {
                 }
                 field("Type"; Rec."Type")
