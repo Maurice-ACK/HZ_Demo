@@ -5,7 +5,7 @@
         //     "name": "Microsoft cloud sandbox",
         //     "request": "launch",
         //     "type": "al",
-        //     "environmentName": "Dev-Michel",
+        //     "environmentName": "Test",
         //     "authentication": "AAD",
         //     "startupObjectId": 22,
         //     "startupObjectType": "Page",
