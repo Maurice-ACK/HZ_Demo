@@ -17,7 +17,6 @@ table 50100 Animal
         }
         field(40; Type; Enum AnimalType)
         {
-            NotBlank = true;
 
             InitValue = Hippopotamus;
         }
