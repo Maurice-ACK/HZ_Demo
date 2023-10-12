@@ -19,7 +19,7 @@
             "type": "al",
             "request": "launch",
             "name": "Local Sandbox (swvo)",
-            "server": "http://swvo",
+            "server": "http://hz-demo",
             "serverInstance": "BC",
             "startupObjectId": 50024,
             "startupObjectType": "Query",
