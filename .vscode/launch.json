@@ -21,8 +21,6 @@
             "name": "Local Sandbox (swvo)",
             "server": "http://hz-demo",
             "serverInstance": "BC",
-            "startupObjectId": 50024,
-            "startupObjectType": "Query",
             "port": 7049,
             "tenant": "default",
             "authentication": "UserPassword",
