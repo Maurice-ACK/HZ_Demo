@@ -1,5 +1,7 @@
 table 50101 Food
 {
+    LookupPageId = FoodList;
+    DrillDownPageId = FoodList;
     DataClassification = ToBeClassified;
 
     fields

@@ -5,7 +5,7 @@ page 50101 FoodList
     PageType = List;
     SourceTable = Food;
     UsageCategory = Lists;
-
+    
     layout
     {
         area(content)

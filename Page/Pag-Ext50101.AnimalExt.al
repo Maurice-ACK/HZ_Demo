@@ -11,6 +11,7 @@ pageextension 50101 AnimalExt extends "Business Manager Role Center"
                 caption = 'Animals';
                 action("Animals List")
                 {
+                    ApplicationArea = Basic, Suite;
                     Caption = 'List of animals';
                     Image = CodesList;
                     RunObject = page AnimalList;
@@ -18,6 +19,8 @@ pageextension 50101 AnimalExt extends "Business Manager Role Center"
                 }
                 action("Food List")
                 {
+                    ApplicationArea = Basic, Suite;
+
                     Caption = 'List of Food';
                     Image = TestDatabase;
                     RunObject = page FoodList;
