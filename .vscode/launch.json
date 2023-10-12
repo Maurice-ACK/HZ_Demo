@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Microsoft cloud sandbox",
+        //     "request": "launch",
+        //     "type": "al",
+        //     "environmentName": "Dev-Michel",
+        //     "authentication": "AAD",
+        //     "startupObjectId": 22,
+        //     "startupObjectType": "Page",
+        //     "breakOnError": "All",
+        //     "launchBrowser": true,
+        //     "enableLongRunningSqlStatements": true,
+        //     "enableSqlInformationDebugger": true,
+        //     "schemaUpdateMode": "Synchronize"
+        // },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Local Sandbox (swvo)",
+            "server": "http://swvo",
+            "serverInstance": "BC",
+            "startupObjectId": 50024,
+            "startupObjectType": "Query",
+            "port": 7049,
+            "tenant": "default",
+            "authentication": "UserPassword",
+            "schemaUpdateMode": "ForceSync"  
+          }
+    ]
+}
