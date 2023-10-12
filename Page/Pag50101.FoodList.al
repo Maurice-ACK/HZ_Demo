@@ -5,7 +5,7 @@ page 50101 FoodList
     PageType = List;
     SourceTable = Food;
     UsageCategory = Lists;
-    
+
     layout
     {
         area(content)
@@ -15,6 +15,15 @@ page 50101 FoodList
                 field(Name; Rec.Name)
                 {
                 }
+                field(Quantity; rec.Quantity)
+                {
+
+                }
+                field(Quality; rec.Quality)
+                {
+
+                }
+
             }
         }
     }

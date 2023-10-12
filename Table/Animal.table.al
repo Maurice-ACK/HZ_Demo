@@ -32,7 +32,7 @@ table 50100 Animal
         }
         field(70; Status; Enum AnimalStatus)
         {
-            NotBlank = true;
+
         }
         field(80; Food; Integer)
         {

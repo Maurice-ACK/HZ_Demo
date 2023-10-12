@@ -3,6 +3,7 @@ table 50101 Food
     LookupPageId = FoodList;
     DrillDownPageId = FoodList;
     DataClassification = ToBeClassified;
+    DataCaptionFields = Name, Quantity, Quality;
 
     fields
     {
@@ -15,12 +16,12 @@ table 50101 Food
         {
 
         }
-        field(30; quantity; Integer)
+        field(30; Quantity; Integer)
         {
             MinValue = 0;
             MaxValue = 2000;
         }
-        field(40; quality; Enum FoodQuality)
+        field(40; Quality; Enum FoodQuality)
         {
 
         }
@@ -31,6 +32,10 @@ table 50101 Food
         key(Key1; ID)
         {
             Clustered = true;
+        }
+        key(k2; Quantity, Quality)
+        {
+
         }
     }
 }
